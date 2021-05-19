@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-05-2021, 09:02:56
+    Author     : asus
+*/
+/*Search CSS*/
+.image-search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text-search
+{   
+    font-size: 13px;
+}
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    border: 1px solid;
+
+}

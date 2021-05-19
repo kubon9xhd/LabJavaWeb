@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-05-2021, 09:02:17
+    Author     : asus
+*/
+/*Footer*/
+.footer {
+    background-image: url('../images/footer.jpg');
+    width: 887px;
+    height: 78px;
+}

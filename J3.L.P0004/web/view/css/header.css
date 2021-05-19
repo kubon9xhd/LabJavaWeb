@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-05-2021, 09:02:00
+    Author     : asus
+*/
+/* Header CSS*/
+.header_top {
+    background-image: url("../images/preheader.jpg");
+    width: 100%;
+    height: 71px;
+}
+
+.header_bottom {
+    background-image: url("../images/header.jpg");
+    width: 100%;
+    height: 78px;
+}
+
+.header_bottom h3 {
+    padding-left: 80px;
+    color: white;
+
+}
+
+.header .menu {
+    background-image: url("../images/menu.jpg");
+    width: 100%;
+    height: 32px;
+}
+.menu a {
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 80px;
+    line-height: 32px;
+    color: white;
+    font-weight: 600;
+}
+
