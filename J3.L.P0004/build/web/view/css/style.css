@@ -80,6 +80,12 @@ and open the template in the editor.
     line-height: 1.5;
     letter-spacing: 1px;
 }
+.paging {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    border: 1px solid;
+}
 
 
 

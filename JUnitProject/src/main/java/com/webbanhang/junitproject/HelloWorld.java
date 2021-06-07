@@ -5,6 +5,9 @@
  */
 package com.webbanhang.junitproject;
 
+import java.sql.Timestamp;
+import java.util.Arrays;
+
 /**
  *
  * @author asus
@@ -34,6 +37,10 @@ public class HelloWorld {
     public static void main(String[] args) {
         HelloWorld helloWorld = new HelloWorld();
         System.out.println(helloWorld.formMessage());
+         Integer[] arr = {1,3};
+         Integer[] arr1 = {3,1};
+         System.out.println(Arrays.deepEquals(arr, arr1));
+        System.out.println();
     }
 
 }

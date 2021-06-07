@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    background-image: url("../images/bg.jpg");
+    background-size: 750px auto;
+    /* Resize the background image to cover the entire container */
+    min-height: 450px;
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    padding: 16px;
+    padding-bottom: 0px;
+}
+.header_bg{
+    background-image: url("../images/top_box.gif");
+    width: 700px;
+    height: 19px;
+    margin: 0 auto;
+}
+.header_nav {
+    background-image: url("../images/menu_bg.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 51px;
+    background-color: white;
+    margin: 0 auto;
+}
+.header_nav .menu{
+    display: flex;
+    justify-content: center;
+    line-height: 51px;
+}
+.header_nav .menu li{
+    list-style: none;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.header_nav .menu li a{
+    font-weight: bold;
+    color: #696058e3;
+}
+.row{
+    background-color: white;
+    width: 700px;
+    min-height: 340px;
+    height: auto;
+    margin: auto;
+    padding: 32px;
+}
+tbody > tr >td:first-child{
+    color: teal;
+}
+tbody > tr >td:last-child > a{
+    color: teal;
+    font-size: 16px;
+}
+td {
+    color: teal;
+}
+.input_ {
+    height: 24px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.mt-2{
+    margin-top: 28px;
+}
+.mb-2{
+    margin-bottom:  28px;
+}
+.mb-1{
+    margin-bottom: 14px;
+}
+.title{
+    color: blue;
+    font-size: 18px;
+    font-weight: 500;
+}
+.title > p {
+    color: teal;
+    display: inline-block;
+}
+#time{
+    display: inline-block;
+    color: red;
+}
+/*    alert */
+.danger{
+    color: red;
+}
+.success{
+    color: green;
+}
+.paging
+{   display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    border: 1px solid;
+
+}
+.wth-400{
+    width: 400px;
+}
+.wth-170{
+    width: 200px;
+}
+tbody > tr:first-child >td textarea{
+    width: 545px; 
+    height: 70px;
+}
+textarea{
+    width: 545px; 
+    height: 35px;
+}
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+    .header_bg{
+        background-size: 460px 19px; 
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .header_nav{
+        background-size: 440px 51px;
+        width: 460px;
+        margin: 0;
+    }
+    .row{
+        width: 460px;
+        margin: 0;
+        margin-left: 16px;
+        font-size: 12px;
+    }
+    .container {
+        background-size: 500px auto;
+        width: 500px;
+
+    }
+    .header_nav .menu {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .input_{
+        font-size: 12px;
+    }
+    tbody > tr:first-child >td textarea{
+        width: 335px;
+    }
+    textarea{
+        width: 335px;
+    }
+}
